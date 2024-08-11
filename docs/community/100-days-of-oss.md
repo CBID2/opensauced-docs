@@ -78,20 +78,20 @@ To make the most of your #100DaysOfOSS journey, here are some additional resourc
 
 1. **Weekly X Spaces:** Join our X Spaces, where we discuss open source topics, share insights, and connect with like-minded individuals. Follow us on [X](https://twitter.com/saucedopen) to stay updated on upcoming sessions.
 
-2. **Community events:** Discover a wide range of events on our [community docs page](https://docs.opensauced.pizza/community/welcome-to-the-community). Whether hack days, workshops, or office hours, these events provide excellent opportunities to learn, collaborate, and find new projects to contribute to.
+2. **Community events:** Discover a wide range of events on our [community docs page](https://opensauced.pizza/docs/community/welcome-to-the-community). Whether hack days, workshops, or office hours, these events provide excellent opportunities to learn, collaborate, and find new projects to contribute to.
 
 3. **Contribution opportunities:** If you're actively looking for open source projects to contribute to, check out the [post](https://dev.to/bekahhw/series/23323) for new contribution opportunities.
 
-4. **Weekly office hours:** Have questions or need help? Join us in our [Community](https://github.com/orgs/open-sauced/discussions/1) during our office hours or post on our `#100DaysOfOSS` channel. We're here to help you succeed!
+4. **Discussion Forum:** Have questions or need help? Join us in our [Community](https://github.com/orgs/open-sauced/discussions/1) or post on our [#100DaysOfOSS discussion](https://github.com/orgs/open-sauced/discussions/36). We're here to help you succeed!
 
 ## Where to Start?
 
 If you're ready to start your #100DaysOfOSS journey, here are some tips to help you get started:
 
 - **Find a project:** Explore the [OpenSauced](https://opensauced.pizza/) website to find a project that interests you. You can also check out the [weekly post](https://dev.to/bekahhw/series/) for exciting contribution opportunities.
-- **Take our Intro To Open Source course:** If you're new to open source, we recommend taking our [Intro to Open Source course](https://intro.opensauced.pizza/#/) to learn more about open source and how to get started.
+- **Take our Intro To Open Source course:** If you're new to open source, we recommend taking our [Intro to Open Source course](https://opensauced.pizza/learn/#/) to learn more about open source and how to get started.
 - **Record your journey:** You will learn a lot as you navigate this challenge, so we highly recommend using our [#100DaysOfOSS journal template](https://github.com/open-sauced/100-days-of-oss-template) on GitHub or [Notion](https://www.notion.so/a0m0rajab/100-Days-Of-Open-Source-2615e66772e14152897002e348c5f1bc?pvs=13) to help you reflect. Remember, this is _your_ journey, so feel free to customize them however you like.
-- **Check our Contributors Guide:** If you're new to contributing to open source, we recommend checking out our [Contributors Guide to OpenSauced](https://docs.opensauced.pizza/contributors/contributors-guide-to-open-sauced/) to learn more about the process and best practices.
+- **Check our Contributors Guide:** If you're new to contributing to open source, we recommend checking out our [Contributors Guide to OpenSauced](https://opensauced.pizza/docs/contributors/contributors-guide-to-open-sauced/) to learn more about the process and best practices.
 
 ## The Power of the #100DaysOfOSS Challenge
 
@@ -110,9 +110,5 @@ Our hope is that the community will provide a safe space to discuss challenges, 
 4. **Learning from peers**: By examining the codebase, participating in discussions, engaging in the community, and reviewing pull requests, contributors can gain insights into different approaches to community, projects, coding styles, architecture patterns, and software development best practices, accelerating a developer's learning curve.
 
 5. **Making a positive impact**: Your contributions benefit other contributors who rely on these projects, fostering a sense of fulfillment and giving back to the community.
-
-### Weekly Office Hours
-
-Have questions or need help? Join us on [Community](https://github.com/orgs/open-sauced/discussions/1) and post on our `#100DaysOfOSS` channel. We're here to help you succeed!
 
 Happy contributing, and best of luck on your #100DaysOfOSS adventure!

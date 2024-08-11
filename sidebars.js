@@ -78,7 +78,7 @@ module.exports = {
       items: ["community/welcome-to-the-community", "community/100-days-of-oss", {
         type: 'link',
         label: 'Open Source Education Path',
-        href: 'https://intro.opensauced.pizza/#/',
+        href: 'https://opensauced.pizza/learn/#/',
       },],
     },
     {
@@ -157,6 +157,14 @@ module.exports = {
           label: "Technical Guide",
           collapsed: true,
           items: ["contributing/technical/setup-repo-with-git", "contributing/technical/resolve-merge-conflicts"],
+        },
+        {
+          type: "category",
+          label: "OpenSauced Writers Guides",
+          collapsed: true,
+          items: [
+            "contributing/opensauced-writers-guide/writers-guide",
+          ],
         },
       ],
     },

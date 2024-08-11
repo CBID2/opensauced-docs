@@ -46,18 +46,18 @@ module.exports = {
           href: "https://opensauced.pizza/",
         },
         {
-          href: "https://dev.to/opensauced",
+          href: "https://opensauced.pizza/blog",
           label: "Blog",
           position: "left",
         },
         {
-          href: "https://github.com/open-sauced/docs.opensauced.pizza",
+          href: "https://github.com/open-sauced/docs",
           label: "GitHub",
           position: "left",
         },
         {
-          href: "https://discord.gg/U2peSNf23P",
-          label: "Discord",
+          href: "https://github.com/orgs/open-sauced/discussions",
+          label: "Community",
           position: "left",
         },
         {
@@ -95,7 +95,7 @@ module.exports = {
             },
             {
               label: "Open Source Courses",
-              to: "https://intro.opensauced.pizza/#/",
+              to: "https://opensauced.pizza/learn/#/",
             },
           ],
         },
@@ -121,7 +121,7 @@ module.exports = {
           items: [
             {
               label: "Blog",
-              href: "https://dev.to/opensauced",
+              href: "https://opensauced.pizza/blog",
             },
             {
               label: "Watch our feature demos",
