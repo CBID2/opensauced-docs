@@ -16,7 +16,7 @@ module.exports = {
       type: "category",
       label: "Getting Started",
       collapsed: false,
-      items: ["welcome/opensauced-intro", "welcome/glossary", "welcome/faqs"],
+      items: ["welcome/opensauced-intro", "welcome/key-metrics-guide", "welcome/glossary", "welcome/faqs"],
     },
     {
       type: "category",
@@ -36,24 +36,29 @@ module.exports = {
       type: "category",
       label: "Guides to OpenSauced",
       collapsed: true,
-      items: [{
-        type: "category",
-        label: "Job Seekers Guide",
-        collapsed: true,
-        items: [
-          "opensauced-guides/job-seekers-guide/job-seekers-guide-introduction",
-          "opensauced-guides/job-seekers-guide/how-to-translate-open-source-contributions-into-career-opportunities",
-        ],
-      },
-      {
-        type: "category",
-        label: "Student's Guide",
-        collapsed: true,
-        items: [
-          "opensauced-guides/students-guide/students-guide",
-
-        ],
-      },],
+      items: [
+        {
+          type: "category",
+          label: "Job Seekers Guide",
+          collapsed: true,
+          items: [
+            "opensauced-guides/job-seekers-guide/job-seekers-guide-introduction",
+            "opensauced-guides/job-seekers-guide/how-to-translate-open-source-contributions-into-career-opportunities",
+          ],
+        },
+        {
+          type: "category",
+          label: "Student's Guide",
+          collapsed: true,
+          items: ["opensauced-guides/students-guide/students-guide"],
+        },
+        {
+          type: "category",
+          label: "OSCR Score Guide",
+          collapsed: true,
+          items: ["opensauced-guides/oscr-score-guide/oscr-guide"],
+        },
+      ],
     },
     {
       type: "category",
@@ -75,11 +80,15 @@ module.exports = {
       type: "category",
       label: "Community",
       collapsed: true,
-      items: ["community/welcome-to-the-community", "community/100-days-of-oss", {
-        type: 'link',
-        label: 'Open Source Education Path',
-        href: 'https://opensauced.pizza/learn/#/',
-      },],
+      items: [
+        "community/welcome-to-the-community",
+        "community/100-days-of-oss",
+        {
+          type: "link",
+          label: "Open Source Education Path",
+          href: "https://opensauced.pizza/learn/#/",
+        },
+      ],
     },
     {
       type: "category",
@@ -87,7 +96,12 @@ module.exports = {
       collapsed: true,
       items: [
         "tools/hot-opensauced",
-        "tools/pizza-cli",
+        {
+          type: "category",
+          label: "Pizza CLI",
+          collapsed: true,
+          items: ["tools/pizza-cli/pizza-cli", "tools/pizza-cli/codeowners", "tools/pizza-cli/pizza-action"],
+        },
         {
           type: "category",
           label: "Chrome Extension Usage",
@@ -100,27 +114,9 @@ module.exports = {
               items: [
                 {
                   type: "file",
-                  label: "feature 1",
-                  type: "doc",
-                  id: "tools/chrome-extension/code-explanation",
-                },
-                {
-                  type: "file",
-                  label: "feature 2",
-                  type: "doc",
-                  id: "tools/chrome-extension/pr-description",
-                },
-                {
-                  type: "file",
                   label: "feature 3",
                   type: "doc",
                   id: "tools/chrome-extension/highlights",
-                },
-                {
-                  type: "file",
-                  label: "feature 5",
-                  type: "doc",
-                  id: "tools/chrome-extension/refactoring-and-testing",
                 },
                 {
                   type: "file",
@@ -162,9 +158,7 @@ module.exports = {
           type: "category",
           label: "OpenSauced Writers Guides",
           collapsed: true,
-          items: [
-            "contributing/opensauced-writers-guide/writers-guide",
-          ],
+          items: ["contributing/opensauced-writers-guide/writers-guide"],
         },
       ],
     },
@@ -178,6 +172,5 @@ module.exports = {
         "opensauced-packages/semantic-release",
       ],
     },
-    
   ],
 };
